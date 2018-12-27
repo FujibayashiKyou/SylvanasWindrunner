@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<!-- ICONS -->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<link rel="stylesheet" href="./css/main.css">
+<link rel="stylesheet" href="./css//media.css">
+
+
+
+<title>World of Warcraft | Sylavanas Windrunner</title>
+</head>
+
+<body>
+    
+<!-- HEADER -->
+
+    <header>
+        <nav style = "background-color: #141414;">
+            <div class="container">
+                <div class="row"> 
+                    <div class="navbar-header">
+                        <button
+                            class="navbar-toggle collapsed menu_btn" 
+                            data-toggle="collapse" 
+                            data-target="#top_menu">
+                            <span class="glyphicon glyphicon-option-horizontal"></span>
+                        </button>
+                        <a href="#" class="navbar-brand logo">
+                            <img src="./img/logo1.png" alt="logo">
+                        </a>
+                    </div>
+                    <div class="collapse navbar-collapse navbar-right" id="top_menu">
+                        <ul class="menu">
+                            <li><a href="#preview">Windrunner</a></li>
+                            <li><a href="#lore">Lore</a></li>
+                            <li><a href="#gallery">Gallery</a></li>
+                            <li><a href="#actors">Actors</a></li>
+                            <li><a href="#download">Download</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="top_line"></div>
+            </div>
+        </nav>
+
+<!-- Information about Silvanas  -->
+        <div class="container" id="preview">
+            <div class="row">
+                <div class="col-xs-18">
+                    <div class="title_block">
+                        
+                        <!-- CAROUSEL BLOCK-->
+                        <div id="myCarousel" class="carousel slide">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <li class="item1 active"></li>
+                                <li class="item2"></li>
+                                <li class="item3"></li>
+                                <li class="item4"></li>
+                            </ol>
+                        
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner" role="listbox">
+                        
+                            <div class="item active">
+                                <img src="./img/carousel/3.jpg" alt="Warbringer" style="width: 100%;">
+                                <div class="carousel-caption">
+                                <h3>War of the Thorns</h3>
+                                <p>Burning of Teldrassil as a major conflict fought between the Alliance and Horde</p>
+                                </div>
+                            </div>
+                        
+                            <div class="item">
+                                <img src="./img/carousel/2.jpg" alt="Sylvanas" style="width: 100%;">
+                                <div class="carousel-caption">
+                                <h3>Battle for Lordaeron</h3>
+                                <p>Lordaeron was fought by the Alliance and Horde for the control of Undercity. The result of the burning of Teldrassil</p>
+                                </div>
+                            </div>
+                            
+                            <div class="item">
+                                <img src="./img/carousel/1.jpg" alt="a Siege" style="width: 100%;">
+                                <div class="carousel-caption">
+                                <h3>Warchief Sylvanas</h3>
+                                <p>As her fate edges closer to the abyss, Sylvanas must decide how far she’ll go to protect her people… and whether they’re more precious to her than her soul</p>
+                                </div>
+                            </div>
+                        
+                            <div class="item">
+                                <img src="./img/carousel/4.jpg" alt="The Dark Lady" style="width: 100%;">
+                                <div class="carousel-caption">
+                                <h3>The DarkLady</h3>
+                                <p>One of the most beautiful, dangerous and popular characters in World of Warcraft</p>
+                                </div>
+                            </div>
+                        
+                            </div>
+                        
+                            <!-- Left and right controls -->
+                            <a class="left carousel-control" role="button">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="right carousel-control" role="button">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                        <button class="my_btn btn_md" onclick="window.open('https://www.wowhead.com/lore-of-wow')">Find out more</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+<!-- HEADER -->
+
+<!-- SECTION 2-->
+<section class="params_s pt150" id="lore">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-sm-6">
+                <div class="params_block">
+                    <i class="material-icons">navigation</i>
+                    <h3>Ranger-General of Silvermoon </h3>
+                    <p>Sylvanas was a member of the prominent Windrunner family of the high elves. Sylvanas was the middle sister between the oldest sister Alleria, and the youngest sister Vereesa. Sylvanas joined the rangers and eventually became their leader, rising to the rank of Ranger-General of Silvermoon, military leader of all high elven forces.</p>
+                </div>
+            </div>
+
+            <!-- Icon 2-->
+            <div class="col-md-4 col-sm-6">
+                <div class="params_block">
+                    <i class="fa fa-bullseye"></i>
+                    <h3>Second War</h3>
+                    <p>During the Second War, the high elves initially sent only token support to the Alliance, though Sylvanas' older sister Alleria took her squad of rangers and joined the fight against the Horde as well. Sylvanas and her rangers moved quickly to meet the Horde and trap them between themselves and the Alliance forces under the command of the paladin Turalyon.</p>
+                </div>
+            </div>
+
+            <!-- Icon 3-->
+            <div class="col-md-4 col-sm-6">
+                <div class="params_block">
+                    <i class="fas fa-ghost"></i>
+                    <h3>Invasion of the Undead Scourge</h3>
+                    <p>Sylvanas lay dying after being impaled by Frostmourne, she told Arthas to finish her. Arthas responded by telling her the last thing he would give her was the peace of death. Moments after Sylvanas passed away into a comforting darkness, she felt agony unlike any she had ever known. Arthas ripped her soul back into the world and Sylvanas Windrunner became the first of the high elven banshees. </p>
+                </div>
+            </div>
+
+            <!-- Icon 4-->
+            <div class="col-md-4 col-sm-6">
+                <div class="params_block">
+                    <i class="fas fa-fist-raised"></i>
+                    <h3>The Dark Ranger</h3>
+                    <p>The dreadlords planned on killing Arthas within the capital, but Sylvanas created a contingency plan in the case of Arthas' escape. After Arthas survived the dreadlords' ambush and escaped the capital, Sylvanas' loyal sisters saw him to the arranged place and then killed his bodyguards. Hiding in the shadows, she struck him with an arrow she had crafted — a venomous sting that would paralyze him.</p>
+                </div>
+            </div>
+
+            <!-- Icon 5-->
+            <div class="col-md-4 col-sm-6">
+                <div class="params_block">
+                    <i class="fas fa-crown"></i>
+                    <h3>Queen of the Forsaken</h3>
+                    <p>The Varimathras invited the banshee to join him and his brothers in their new order. Freeing as much undead from the Lich King's dominion, and organizing them into a new nation of their own, Sylvanas attacked the royal catacombs beneath the ruins of Capital City - the Undercity - and took it over for the Forsaken. The Forsaken have since worked to complete Arthas' plans in the Undercity; extending its dungeons and tombs considerably to forge a functional capital for their own use.</p>
+                </div>
+            </div>
+
+            <!-- Icon 6-->
+            <div class="col-md-4 col-sm-6">
+                <div class="params_block">
+                    <i class="fas fa-hands-helping"></i>
+                    <h3>Joining the Horde</h3>
+                    <p>Sylvanas looked to finding allies. She sent numerous ambassadors to the Horde under Warchief Thrall, though the Forsaken's admittance as an official member state was contested by a number of the faction's existing members. The kind-hearted tauren of Thunder Bluff proved to be the most promising contact. The tauren convinced Warchief Thrall, despite his misgivings, to forge an alliance of convenience between the Forsaken and the Horde.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Block 3-->
+<section class="characters_s pt95" id="gallery">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3 col-sm-6 p0">
+                <div class="info_block">
+                    <div class="image_wrap">
+                        <div class="descr">
+                            <h4>Warchief of the Horde</h4>
+                            <p>After being mortally wounded during the battle for the Broken Shore, Warchief Vol'jin declared Sylvanas as his successor with his dying breath, leaving her to lead the Horde against the invading forces of the Burning Legion. Following the Legion's defeat, Sylvanas now leads the Horde against the Alliance in a war that spans all of Azeroth.</p>
+                        </div>
+                    </div>
+                    <img src="./img/becameWarchief.png" class="img-responsive" alt="workItem" width="100%">
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6 p0">
+                <div class="info_block">
+                    <div class="image_wrap">
+                        <div class="descr">
+                            <h4>Windrunner Sisters</h4>
+                            <p>Many consider the Windrunner family as the most tragic family in Warcraft lore. 
+                               Several members of the family were killed by the orcs during the Second War, including the sisters' parents, their youngest brother Lirath, along with numerous relatives of varying proximity.
+                               Only Alleria, Sylvanas, Vereesa, and Zendarin are known to have survived.
+                            </p>
+                        </div>
+                    </div>
+                    <img src="./img/sisters.jpg" class="img-responsive" alt="workItem" width="100%">
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6 p0">
+                <div class="info_block">
+                    <div class="image_wrap">
+                        <div class="descr">
+                            <h4>Power of the Horde</h4>
+                            <p>The battle for a. The Undercity is the capital city of the Forsaken undead of the Horde. It is located in Tirisfal Glades, at the northern edge of the Eastern Kingdoms. Far beneath the ruined capital city of Lordaeron, the royal crypts have been turned into a bastion of evil and undeath.</p>
+                        </div>
+                    </div>
+                    <img src="./img/HordeCrew.jpg" class="img-responsive" alt="workItem" width="100%">
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6 p0">
+                <div class="info_block">
+                    <div class="image_wrap">
+                        <div class="descr">
+                            <h4>The Dark Lady</h4>
+                            <p>During the Alliance's siege on the Lordaeron Keep, Warchief Sylvanas contemplated the cycles of hatred and ever changing alliances the Horde has to live by. She believes that sharing the world has made the Horde weak and that they have forgotten what has made them strong.</p>
+                        </div>
+                    </div>
+                    <img src="./img/image1.jpg" class="img-responsive" alt="workItem" width="100%">
+                </div>
+            </div>
+
+            
+            <div class="col-md-3 col-sm-6 p0">
+                <div class="info_block">
+                    <div class="image_wrap">
+                        <div class="descr">
+                            <h4>The Queen awaits a "little lion"</h4>
+                            <p>Sylvanas, The Banshee Queen, waiting for Alliance Forces in Lordaeron King`s Hall. This scene was like years ago, when Arthas killed his father in this hall.</p>
+                        </div>
+                    </div>
+                    <img src="./img/sylvanas.jpg" class="img-responsive" alt="workItem" width="100%">
+                </div>
+            </div>
+
+                        
+            <div class="col-md-3 col-sm-6 p0">
+                <div class="info_block">
+                    <div class="image_wrap">
+                        <div class="descr">
+                            <h4>Sylvanas vs Anduin Wrynn</h4>
+                            <p>This cutscene was epic. You should to watch it.</p>
+                        </div>
+                    </div>
+                    <img src="./img/SylvaVsVarian.jpg" class="img-responsive" alt="workItem" width="100%">
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6 p0">
+                <div class="info_block">
+                    <div class="image_wrap">
+                        <div class="descr">
+                            <h4>Siege of the a Lordaeron</h4>
+                            <p>Many people talk that Sylvanas = Garrosh 2.0. I`m disagree with them. Look at her eyes. She has feeling. She want to save Horde & Forsaken and she will doing everything for that!</p>
+                        </div>
+                    </div>
+                    <img src="./img/World-of-Wacraft-Sylvanas.jpg" class="img-responsive" alt="workItem" width="100%">
+                </div>
+            </div>
+            
+            <div class="col-md-3 col-sm-6 p0">
+                <div class="info_block">
+                    <div class="image_wrap">
+                        <div class="descr">
+                            <h4>Lordaeron will fall</h4>
+                            <p>Siege of the a. Alliance will win this battle, but not War. </p>
+                        </div>
+                    </div>
+                    <img src="./img/lorderon.jpg" class="img-responsive" alt="workItem" width="100%">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ACTORS SECRION-->
+<section class="actor_s pt95" id="actors">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-6 col-xs-6">
+                <div class="team_item">
+                    <img src="./img/patty_mattson.jpg" class="img-responsive" alt="">
+                    <h4>Patty Mattson</h4>
+                    <span>Sylvana Windrunner`s Voice</span><br/>
+                    <p>Patty Mattson, a crafty chameleon, is the dynamic voice on an impressive range of work from Animated Characters, to Commercials, Jingles, Records, Promo’s, and Video Games, as well as a wide variety of hilarious parody sound alike songs for Clear Channels national morning radio lineup, Not to mention her own Original Music
+                        She is definitely the magnificent essential which makes each one fly.
+                        Mattson’s revered spoken voice and sensational singing voice are success stories on several dazzling fronts.
+                        Patty Mattson, a quadruple threat for mellifluous and character-driven voice overs, songwriting, unforgettable vocal stylings, and acting …. is IMHO, pure magic.  Watch, listen, and know.</p>
+                    <div class="team_btn">
+                        <button class="soc_btn_grey" onclick="window.open('https://www.facebook.com/pattymattsonmusic/')"> <i class="fa fa-facebook-official"></i> </button>
+                        <button class="soc_btn_grey" onclick="window.open('https://twitter.com/pattymattson?lang=uk')"> <i class="fa fa-twitter" > </i> </button>
+                        <button class="soc_btn_grey" onclick="window.open('https://www.instagram.com/patty_mattson/')"> <i class="fa fa-instagram" ></i> </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ACTOR #2-->
+            <div class="col-md-3 col-sm-6 col-xs-6">
+                <div class="team_item">
+                    <img src="./img/josh.jpg" class="img-responsive" alt="">
+                    <h4>Josh Keaton</h4>
+                    <span>Anduin Wrynn`s Voice</span><br/>
+                    <p>Joshua Luis Wiener (born February 8, 1979), known by his stage name Josh Keaton, is an American actor, voice actor and singer. He is known for his roles as Takashi (Shiro) Shirogane in Voltron: Legendary Defender, Spider-Man in The Spectacular Spider-Man, Norman Osborn in Marvel's Spider-Man, Jack Darby in Transformers: Prime and the adolescent Hercules in the film Hercules. His career has included television, video game and film work, with a mixture of live acting and voice work for animations. As an infant, he appeared in an OshKosh B'gosh commercial. He was in the 1990s boy band No Authority and was signed to MJJ Music and later RCA Records as a solo artist.</p>
+                    <div class="team_btn">
+                        <button class="soc_btn_grey" onclick="window.open('https://www.facebook.com/joshkeatonspage/')"> <i class="fa fa-facebook-official"></i> </button>
+                        <button class="soc_btn_grey" onclick="window.open('https://twitter.com/joshkeaton')"> <i class="fa fa-twitter" ></i> </button>
+                        <button class="soc_btn_grey" onclick="window.open('https://www.instagram.com/spacepadre/?hl=uk')"> <i class="fa fa-instagram" ></i> </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ACTOR #3-->
+            <div class="col-md-3 col-sm-6 col-xs-6">
+                <div class="team_item">
+                    <img src="./img/Mara_Junot.jpg" class="img-responsive" alt="">
+                    <h4>Mara Junot</h4>
+                    <span>Alleria Windrunner`s Voice</span><br/>
+                    <p>This isn’t the sound you’re used to. Mara has a three-dimensional voice that cuts through the noise to promote companies, services and entrepreneurs around the globe.
+                        Mara Junot is an accomplished African-American voiceover specialist with over a decade of experience bringing words to life. Her naturally intuitive vocal ability resonates with warmth, confidence and the promise of connection. Whether engaged in promotional, commercial, gaming or corporate voice work, Mara delivers sophisticated style.</p>
+                    <div class="team_btn">
+                        <button class="soc_btn_grey" onclick="window.open('https://www.facebook.com/junotmara/')"> <i class="fa fa-facebook-official"></i> </button>
+                        <button class="soc_btn_grey" onclick="window.open('https://twitter.com/marajunot')"> <i class="fa fa-twitter" ></i> </button>
+                        <button class="soc_btn_grey" onclick="window.open('http://marajunot.com/voice/')"> <i class="fas fa-headphones-alt"></i> </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ACTOR #4-->
+            <div class="col-md-3 col-sm-6 col-xs-6">
+                <div class="team_item">
+                    <img src="./img/courtenay_taylor.jpg" class="img-responsive" alt="">
+                    <h4>Courtenay Taylor</h4>
+                    <span>Vereesa Windrunner`s Voice</span><br/>
+                    <p>Courtenay Dennis was born in San Francisco, California and spent time in Texas, Australia and England. She attended the American Conservatory Theater, majoring in theatre and had an acting class as an elective. While in college she became overweight, so she started exercising and trained in full contact boxing and kickboxing. She eventually taught in fitness classes and managed a boxing gym in San Francisco. She also taught a boxing class at Lucas Arts for their staff on Wednesday afternoons, returning to work for them on Star Wars: Knights of the Old Republic.</p>
+                    <div class="team_btn">
+                        <button class="soc_btn_grey" onclick="window.open('https://www.facebook.com/CourtenayTaylorNews/')"> <i class="fa fa-facebook-official"></i> </button>
+                        <button class="soc_btn_grey" onclick="window.open('http://www.courtenaytaylor.com')"> <i class="fas fa-headphones-alt"></i> </button>
+                        <button class="soc_btn_grey" onclick="window.open('https://www.instagram.com/courtenaytaylorla/?hl=en')"> <i class="fa fa-instagram" ></i> </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- DOWNLOAD SECTION -->
+<section class="download ptb95" id="download">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <div class="download_block">
+                    <h5> Are you ready to start play side by side with Sylvanas Windrunner?</h5>
+                    <p>Click the button below, and open the World of Warcraft for you.</p>
+                    <button class="my_btn btn_lg" onclick="window.open('https://worldofwarcraft.com/en-us/battle-for-azeroth')"> DOWNLOAD HERE </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER SECTON -->
+<footer>
+    <div class="main_footer ptb95">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-xs-6">
+                    <div class="footer_item">
+                        <h5>Location</h5>
+                        <p>Eastern Kingdoms</br>Ghostlands -> Windrunner Spire <br/>  </p>
+                    </div>
+                </div>
+
+                <!-- BLOCK 2-->
+                <div class="col-md-4 col-xs-6">
+                    <div class="footer_item">
+                        <h5>Share with love</h5>
+                        <button class="soc_btn_white" onclick="window.open('https://www.facebook.com/Warcraft/')"> <i class="fa fa-facebook-official"></i> </button>
+                        <button class="soc_btn_white" onclick="window.open('https://twitter.com/warcraft')"> <i class="fa fa-twitter" ></i> </button>
+                        <button class="soc_btn_white" onclick="window.open('https://www.instagram.com/warcraft/?hl=en')"> <i class="fa fa-instagram" ></i> </button>
+                    </div>
+                </div>
+
+                <!--BLOCK 3-->
+                <div class="col-md-4 hidden-xs hidden-sm">
+                    <div class="footer_item">
+                        <h5>About <q>Sylvana</q></h5>
+                        <p>"Still a warrior's heart? She had grown cold. No, she was the same. In death as in life" </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="copyright_block">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4-offset-4">
+                    <div class="copy_text">
+                        <h5>Copyright &copy; 2018 "Sylvanas" All Rights Reserved</h5>
+                        <p>Made with <span class="glyphicon glyphicon-heart" aria-hidden="true"></span>  <span style="color:white"> by  FujibayashiKyou </span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="./js/nav_scroll.js"></script>
+<script src="./js/carousel.js"> </script>
+
+</body>
+</html>

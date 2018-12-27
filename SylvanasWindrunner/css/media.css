@@ -1,0 +1,585 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    header{
+        height: 420px;
+    }
+    
+    nav{
+        height: 60px;
+        line-height: 60px;
+         position: fixed;
+    }
+    
+    .navbar-toggle {
+        margin-bottom: 13px;
+    }
+
+    /* Top underline */
+    /* Underline */
+    .top_line {
+        margin-top: 0;
+    }
+
+    /* Top LOGO (SYLVANAS) */
+    .navbar-brand.logo {
+        padding: 10px 0;
+    }
+
+    /* Menu button and drop list */
+    .menu_btn {
+        margin-top: 14px;
+        height: 32px;
+        width: 32px;
+        border-radius: 35%;
+        background-color: #132530;
+    }
+
+    .menu_btn span {
+        top: -18px;
+        right: 3px;
+        color: #dbdbdb;
+    }
+
+    #top_menu {
+        background-color: #141414;
+        /*margin-right: 10px;*/
+        padding: 0 0;
+    }
+
+    .menu li {
+        display: block;
+        text-align: center;
+    }
+
+    .menu li a {
+        display: block;
+    }
+
+    .menu li a:hover {
+        background-color: #fff;
+        color: #000;
+    }
+
+    /* SECTION PREVIEW*/
+    .title_block {
+        margin-top: 105px;
+    }
+
+    .title_block p {
+        font-size: 10px;
+    }
+
+    .title_block h3 {
+        font-size: 14px;
+    }
+
+    #myCarousel {
+        margin-bottom: 30px;
+    }
+
+    /* SECTION LORE */
+    .params_s {
+        padding-top: 95px;
+    }
+
+    /* SECTION GALLERY  */
+    .characters_s {
+        padding-top: 60px;
+    }
+
+    .descr h4 {
+        font-size: 16px;
+    }
+
+    .descr p {
+        font-size: 14px;
+    }
+
+    /* ----------------- ACTORS SECTION -------------- */
+    .actor_s {
+        padding: 55px 0;
+    }
+
+    .col-xs-6 {
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+    .team_item {
+        margin-bottom: 50px;
+    }
+
+    .team_item p {
+        margin-top: 20px;
+    }
+
+    /* DOWNLOAD SECTION */
+    .download {
+        padding-top: 115px;
+    }
+
+    /* ------------------- MAIN FOOTER ------------------ */
+    .main_footer {
+        padding-bottom: 30px;
+    }
+
+    .footer_item h5 {
+        font-size: 16px;
+    }
+
+    .footer_item p {
+        font-size: 12px;
+    }
+
+    /* SECTION COPYRIGHT */
+    .copy_text h5 {
+        font-size: 14px;
+    }
+    
+    .copy_text p {
+        font-size: 14px;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    header {
+        height: 500px;
+    }
+
+    nav {
+        height: 60px;
+        line-height: 60px;
+        position: fixed;
+    }
+
+    /* LOGO (SYLVANAS) */
+    .navbar-brand.logo {
+        padding: 10px 0 0 0;
+    }
+
+    /* Underline */
+    .top_line {
+        margin-top: 0;
+    }
+
+    /* Menu and dropdown list */
+    .menu_btn {
+        height: 43px;
+        width: 43px;
+        border-radius: 35%;
+        
+        background-color: #132530;
+    }
+
+    .menu_btn span {
+        top: -12px;
+        color: #dbdbdb;
+    }
+
+    #top_menu {
+        background-color: #141414;
+        padding: 0 0;
+    }
+
+    .menu {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    .menu li:hover{
+        background-color: #fff;
+    }
+
+    .menu li:hover a {
+        background-color: #fff;
+        color: #000;
+    }
+
+    /* SECTION PREVIEW*/
+    .title_block {
+        margin-top: 100px;
+    }
+
+    .item h3 {
+        font-size: 16px;
+    }
+
+    item p {
+        font-size: 12px;
+    }
+    
+    #myCarousel {
+        margin-bottom: 20px;
+    }
+
+    /* SECTION LORE */
+    .params_s {
+        padding-top: 110px;
+    }
+
+    .params_block {
+        margin-bottom: 70px;
+    }
+
+    /* SECTION GALLERY */
+    .characters_s {
+        padding-top: 60px;
+    }
+
+    /* GALLERY SECTION */
+    .descr h4 {
+        font-size: 20px;
+    }
+
+    .descr p {
+        font-size: 18px;
+    }
+
+    /* ACTOR SECTION */
+    .actor_s {
+        padding-top: 60px;
+        padding-bottom: 45px;
+    }
+    
+    .team_item {
+        margin-bottom: 50px;
+    }
+
+    .team_item h4 {
+        font-size: 20px;
+    }
+
+    .team_item span {
+        font-size: 14px;
+    }
+
+    .team_item p {
+        font-size: 14px;
+        margin-top: 20px;
+    }
+
+    /* DOWNLOAD SECTION */
+    .download {
+        padding-top: 140px;
+    }
+
+    .download_block h5 {
+        font-size: 26px;
+    }
+
+    .download_block p {
+        font-size: 18px;
+    }
+
+    /* ------------------- MAIN FOOTER ------------------ */
+    .main_footer {
+        padding-bottom: 45px;
+    }
+
+    .footer_item h5 {
+        font-size: 20px;
+    }
+
+    .footer_item p {
+        font-size: 14px;
+    }
+
+    /* COPYRIGHT SECTION */
+    .copy_text h5 {
+        font-size: 14px;
+    }
+
+    .copy_text p {
+        font-size: 14px;
+    }
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    header {
+        height: 688px;
+    }
+
+    /* Navigation bar */
+    nav {
+        height: 90px;
+        line-height: 30px;
+        position: fixed;
+    }
+
+    .navbar-brand.logo {
+        padding: 20px 0;
+    }
+
+    /* Top Menu */
+    #top_menu {
+        padding: 25px 0 0 0;
+    }
+
+    .menu li {
+        padding: 0 15px;
+    }
+
+    /* Top UNDERLINE */
+    .top_line {
+        margin-top: 8px;
+    }
+
+    /* PREVIEW SECTION */
+    .title_block {
+        margin-top: 150px;
+    }
+
+    .item h3 {
+        font-size: 16px;
+    }
+
+    .item p {
+        font-size: 12px;
+    }
+
+    #myCarousel {
+        margin-bottom: 30px;
+    }
+
+    /* SECTION LORE, change padding-top for tight scroll position*/
+    #lore {
+        padding-top: 110px;
+    }
+
+    .params_block p {
+        font-size: 18px;
+    }
+
+    /* GALLERY SECTION */
+
+    .characters_s {
+        padding-top: 93px;
+    }
+
+    .descr h4 {
+        font-size: 16px;
+    }
+
+    .descr p {
+        font-size: 14px;
+    }
+
+    /* SECTION ACTOR */
+
+    .actor_s {
+        padding-top: 94px;
+    }
+
+    .team_item h4 {
+        font-size: 20px;
+    }
+
+    .team_item span {
+        font-size: 14px;
+    }
+
+    .team_item p {
+        font-size: 14px;
+        margin-top: 20px;
+    }
+
+    /* SECTION DOWNLOAD */
+    .download_block h5 {
+        font-size: 24px;
+
+    }
+
+    .download_block p {
+        font-size: 16px;
+    }
+
+    /* SECTION FOOTER */
+    .footer_item h5 {
+        font-size: 20px;
+    }
+
+    .footer_item p {
+        font-size: 14px;
+    }
+
+    /* COPYRIGHT SECTION */
+    .copy_text h5 {
+        font-size: 18px;
+    }
+
+    .copy_text p {
+        font-size: 18px;
+    }
+
+    .copy_text span {
+        font-size: 18px;
+    }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    header {
+        height: 768px;
+    }
+
+    /* SECTION PREVIEW */
+    .title_block {
+        margin-top: 180px;
+    }
+
+    /* Carousel */
+    .item h3 {
+        font-size: 18px;
+    }
+
+    .item p {
+        font-size: 14px;
+    }
+    
+    #myCarousel{
+        margin-bottom: 30px;
+    }
+
+    /* SECTION LORE */
+    .characters_s {
+        padding-top: 95px;
+    }
+
+    /* SECTION ACTOR */
+    .actor_s {
+        padding-top: 95px;
+        padding-bottom: 0;
+    }
+
+    .col-xs-6 {
+        padding: 15px;
+    }
+
+    .team_item span {
+        font-size: 14px;
+    }
+
+    .team_item p {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    /* SECTION DOWNLOAD */
+    .download {
+        padding-top: 220px;
+    }
+
+    .download_block h5 {
+        font-size: 24px;
+
+    }
+
+    .download_block p {
+        font-size: 16px;
+    }
+
+    /* SECTION FOOTER */
+    .footer_item h5 {
+        font-size: 20px;
+    }
+
+    .footer_item p {
+        font-size: 14px;
+    }
+
+    /* COPYRIGHT SECTION */
+    .copy_text h5 {
+        font-size: 18px;
+    }
+
+    .copy_text p {
+        font-size: 18px;
+    }
+
+    .copy_text span {
+        font-size: 18px;
+    }
+
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) { 
+
+    header {
+        height: 900px;
+    }
+
+    /* SECTION PREVIEW */
+
+    .title_block {
+        margin-top: 200px;
+    }
+
+    /* Carousel */
+    .item h3 {
+        font-size: 16px;
+    }
+
+    .item p {
+        font-size: 12px;
+    }
+
+    #myCarousel {
+        margin-bottom: 30px;
+    }
+
+    /* SECTION GALLERY */
+    .descr p {
+        font-size: 12px;
+    }
+
+    /* SECTION ACTORS */
+    .team_item h4 {
+        font-size: 24px;
+    }
+
+    .team_item span {
+        font-size: 18px;
+    }
+
+    .team_item p {
+        font-size: 18px;
+    }
+
+    /* SECTION DOWNLOAD */
+    .download h5{
+        font-size: 24px;
+    }
+
+    .download p {
+        font-size: 18px;
+    }
+
+    /* SECTION FOOTER */
+    .footer_item h5 {
+        font-size: 24px;
+    }
+
+    .footer_item p {
+        font-size: 18px;
+    }
+
+    /* COPYRIGHT SECTION */
+    .copy_text h5 {
+        font-size: 18px;
+    }
+
+    .copy_text p {
+        font-size: 18px;
+    }
+
+    .copy_text span {
+        font-size: 18px;
+    }
+
+}
